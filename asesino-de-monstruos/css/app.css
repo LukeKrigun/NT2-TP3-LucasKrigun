@@ -1,0 +1,101 @@
+body{
+background-image: url("https://img.freepik.com/free-vector/space-game-background-neon-night-alien-landscape_107791-1624.jpg?w=1380&t=st=1652143238~exp=1652143838~hmac=99286c74637e34fdbd640004d57c85c36d2af5974cf2b41882f7222d3020d17a");
+}
+
+.text-center {
+    text-align: center;
+}
+
+.curarthbar {
+    width: 80%;
+    height: 40px;
+    background-color: #eee;
+    margin: auto;
+    transition: width 500ms;
+    font-size: 22px;
+}
+
+.controls, .log {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 6px #ccc;
+}
+
+.turno {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.log ul {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.log ul li {
+    margin: 5px;
+    text-align: right;
+    padding:5px;
+}
+
+.log ul .player-turno {
+    color: #eee;
+    background-color: rgb(134, 54, 100);
+}
+
+.log ul .monster-turno {
+    color: #eee;
+    background-color:rgb(23, 11, 113);
+}
+
+button {
+    font-size: 20px;
+    background-color: #4456AE;
+    padding: 12px;
+    box-shadow: 0 1px 1px black;
+    margin: 10px;
+}
+
+#empezar-partida {
+    background-color: #4456AE;
+}
+
+#empezar-partida:hover {
+    background-color: #4456AE;
+}
+
+#atacar {
+    background-color: #4456AE;
+}
+
+#atacar:hover {
+    background-color: #A8E2FD;
+}
+
+#ataque-especial {
+    background-color: #4456AE;
+}
+
+#ataque-especial:hover {
+    background-color: #A8E2FD;
+}
+
+#curar {
+    background-color: #4456AE;
+}
+
+#curar:hover {
+    background-color: #A8E2FD;
+}
+
+#rendirse {
+    background-color: #4456AE;
+}
+
+#rendirse:hover {
+    background-color: #A8E2FD;
+}
